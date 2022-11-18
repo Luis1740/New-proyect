@@ -71,7 +71,15 @@ namespace Modelo
 
         }
 
-        
+        public Familia obtenerFamilia(string pIdFamilia)
+        {
+            this.nombre = "luka";
+            this.apellido = "marco";
+            this.idFamilia = Convert.ToInt32(idFamilia);
+            this.ocupacion = "trabajo";
+            this.parentesco = "nose";
+            return this;
+        }
     }
 
 }
